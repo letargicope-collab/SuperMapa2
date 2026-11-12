@@ -75,10 +75,15 @@ snapshot anterior a esta correção e mantém o mapa antigo.
 
 ## Fotos dos escritórios
 
-Cada unidade exibe sua foto de `public/fotos/{NomeDaCidade_Rua}.png` (ex.: `São_Bento_liberato.png`,
-`Olho_centro.png`). O índice completo de nomes está em `public/fotos/README.md`.
-Enquanto o arquivo não existir, o cartão usa a foto institucional automaticamente
-(não é preciso alterar código para ativar uma foto).
+As fotos ficam em `public/fotos/{NomeDaCidade_Rua}.png` (ex.: `São_Bento_liberato.png`,
+`Olho_centro.png`; índice em `public/fotos/README.md`) e são **embutidas no HTML**
+em `src/map/data/office-photos.ts` (JPEG otimizado 800×450, ~57 KB cada). Assim
+aparecem em qualquer contexto — GitHub Pages, preview do editor ou arquivo aberto
+localmente — sem depender do caminho `fotos/...`.
+
+Para adicionar ou trocar uma foto: coloque/substitua o PNG em `public/fotos/`,
+rode `npm run fotos` (requer ImageMagick) e faça o build. Se a chave de uma
+unidade não existir em `office-photos.ts`, o cartão usa a foto institucional.
 
 
 ## Endereços e referências

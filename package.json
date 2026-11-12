@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fotos": "bash scripts/build-photos.sh"
   },
   "dependencies": {
     "clsx": "2.1.1",
