@@ -21,11 +21,14 @@ const STATE_LABEL: Record<Uf, string> = {
   PE: 'Pernambuco',
 }
 
-/** Nome exibido: sem o sufixo de unidade, que vira uma etiqueta ao lado. */
+/**
+ * Nome exibido no formato "Cidade — Bairro". Só a Sede/Matriz recebe a etiqueta
+ * ao lado; o restante mostra o nome completo, para o município ficar explícito.
+ */
 function displayName(place: Place): { label: string; flag: string | null } {
-  const match = /\s*\((Sede\/Matriz|Sede|Matriz|Centro)\)\s*$/.exec(place.name)
+  const match = /\s+—\s+(Sede\/Matriz)\s*$/.exec(place.name)
   if (!match) return { label: place.name, flag: null }
-  return { label: place.name.slice(0, match.index), flag: match[1].toLowerCase() }
+  return { label: place.name.slice(0, match.index), flag: 'sede/matriz' }
 }
 
 /** Rua/logradouro sem a repetição de cidade e UF no fim do endereço. */

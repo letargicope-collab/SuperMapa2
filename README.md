@@ -97,3 +97,14 @@ unidade nova em relação à lista anterior é **Itaporanga d'Ajuda (SE)**.
 O endereço completo e a referência aparecem somente quando o visitante abre
 **Mais detalhes**, no cartão da unidade ou no painel da rota. Nesse mesmo painel
 há uma orientação curta de como usar o mapa, também escondida por padrão.
+
+
+## Nomes das unidades
+
+Todas as unidades seguem o padrão **Cidade — Bairro** (ex.: `Maceió — Cidade Universitária`,
+`Arapiraca — Brasília`), para que o município apareça sempre no nome e nenhuma
+unidade seja confundida com outra cidade. O campo `unitType` traz o tipo (Sede,
+Filial, ESC etc.).
+
+Na lista, dentro de cada estado, a **Sede/Matriz** aparece sempre em primeiro
+(com a etiqueta SEDE/MATRIZ) e as demais em ordem alfabética pelo nome.

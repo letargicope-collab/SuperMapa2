@@ -49,7 +49,7 @@ export type Place = {
 export const PLACES: Place[] = [
   {
     id: 'sede-matriz-olho-dagua-das-flores',
-    name: "Olho d'Água das Flores (Sede/Matriz)",
+    name: "Olho d'Água das Flores — Sede/Matriz",
     city: "Olho d'Água das Flores",
     state: 'Alagoas',
     uf: 'AL',
@@ -62,7 +62,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'arapiraca-express',
-    name: 'Arapiraca Express',
+    name: "Arapiraca — Brasília",
     city: 'Arapiraca',
     state: 'Alagoas',
     uf: 'AL',
@@ -75,7 +75,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'arapiraca-sede',
-    name: 'Arapiraca Sede',
+    name: "Arapiraca — Baixa Grande",
     city: 'Arapiraca',
     state: 'Alagoas',
     uf: 'AL',
@@ -87,7 +87,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'batalha',
-    name: 'Batalha',
+    name: "Batalha — Centro",
     city: 'Batalha',
     state: 'Alagoas',
     uf: 'AL',
@@ -100,7 +100,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'campo-alegre',
-    name: 'Campo Alegre',
+    name: "Campo Alegre — Centro",
     city: 'Campo Alegre',
     state: 'Alagoas',
     uf: 'AL',
@@ -113,7 +113,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'canapi',
-    name: 'Canapi',
+    name: "Canapi — Centro",
     city: 'Canapi',
     state: 'Alagoas',
     uf: 'AL',
@@ -126,7 +126,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'coruripe',
-    name: 'Coruripe',
+    name: "Coruripe — Centro",
     city: 'Coruripe',
     state: 'Alagoas',
     uf: 'AL',
@@ -139,7 +139,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'delmiro-gouveia',
-    name: 'Delmiro Gouveia',
+    name: "Delmiro Gouveia — Centro",
     city: 'Delmiro Gouveia',
     state: 'Alagoas',
     uf: 'AL',
@@ -151,11 +151,11 @@ export const PLACES: Place[] = [
   },
   {
     id: 'esc-cidade-universitaria',
-    name: 'ESC Cidade Universitária',
+    name: "Maceió — Cidade Universitária",
     city: 'Maceió',
     state: 'Alagoas',
     uf: 'AL',
-    unitType: 'Escritório de Serviço · Maceió',
+    unitType: 'Escritório de Serviço (ESC) · Maceió',
     address: 'Av. Dr. Fernando Couto Malta — Graciliano / Cidade Universitária, Maceió, AL',
     phone: '0800 710 0004',
     coordinates: [-35.74626658910641, -9.550729039609443],
@@ -164,11 +164,11 @@ export const PLACES: Place[] = [
   },
   {
     id: 'esc-super-ponta-da-terra',
-    name: 'ESC Super Ponta da Terra',
+    name: "Maceió — Ponta da Terra",
     city: 'Maceió',
     state: 'Alagoas',
     uf: 'AL',
-    unitType: 'Escritório de Serviço · Maceió',
+    unitType: 'Escritório de Serviço (ESC) · Maceió',
     address: 'Rua Domingos Lordsleen, 340 — Ponta da Terra, Maceió, AL',
     phone: '0800 710 0004',
     coordinates: [-35.716670, -9.664839],
@@ -176,7 +176,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'girau-do-ponciano',
-    name: 'Girau do Ponciano',
+    name: "Girau do Ponciano — Centro",
     city: 'Girau do Ponciano',
     state: 'Alagoas',
     uf: 'AL',
@@ -189,7 +189,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'junqueiro',
-    name: 'Junqueiro',
+    name: "Junqueiro — Centro",
     city: 'Junqueiro',
     state: 'Alagoas',
     uf: 'AL',
@@ -201,7 +201,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'maravilha',
-    name: 'Maravilha',
+    name: "Maravilha — Centro",
     city: 'Maravilha',
     state: 'Alagoas',
     uf: 'AL',
@@ -214,7 +214,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'centro-olho-dagua-das-flores',
-    name: "Olho d'Água das Flores (Centro)",
+    name: "Olho d'Água das Flores — Centro",
     city: "Olho d'Água das Flores",
     state: 'Alagoas',
     uf: 'AL',
@@ -226,7 +226,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'palmeira-dos-indios',
-    name: 'Palmeira dos Índios',
+    name: "Palmeira dos Índios — São Cristóvão",
     city: 'Palmeira dos Índios',
     state: 'Alagoas',
     uf: 'AL',
@@ -239,7 +239,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'penedo',
-    name: 'Penedo',
+    name: "Penedo — Senhor do Bonfim",
     city: 'Penedo',
     state: 'Alagoas',
     uf: 'AL',
@@ -252,7 +252,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'pindorama-coruripe',
-    name: 'Pindorama',
+    name: "Coruripe — Pindorama",
     city: 'Coruripe',
     state: 'Alagoas',
     uf: 'AL',
@@ -265,7 +265,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'piranhas',
-    name: 'Piranhas',
+    name: "Piranhas — Xingó",
     city: 'Piranhas',
     state: 'Alagoas',
     uf: 'AL',
@@ -277,7 +277,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'pao-de-acucar',
-    name: 'Pão de Açúcar',
+    name: "Pão de Açúcar — Centro",
     city: 'Pão de Açúcar',
     state: 'Alagoas',
     uf: 'AL',
@@ -289,7 +289,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'santana-do-ipanema',
-    name: 'Santana do Ipanema',
+    name: "Santana do Ipanema — Camoxinga",
     city: 'Santana do Ipanema',
     state: 'Alagoas',
     uf: 'AL',
@@ -302,7 +302,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'sao-miguel-dos-campos',
-    name: 'São Miguel dos Campos',
+    name: "São Miguel dos Campos — Centro",
     city: 'São Miguel dos Campos',
     state: 'Alagoas',
     uf: 'AL',
@@ -315,7 +315,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'sao-sebastiao',
-    name: 'São Sebastião',
+    name: "São Sebastião — Centro",
     city: 'São Sebastião',
     state: 'Alagoas',
     uf: 'AL',
@@ -328,7 +328,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'teotonio-vilela',
-    name: 'Teotônio Vilela',
+    name: "Teotônio Vilela — Centro",
     city: 'Teotônio Vilela',
     state: 'Alagoas',
     uf: 'AL',
@@ -341,7 +341,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'aracaju',
-    name: 'Aracaju',
+    name: "Aracaju — Suíssa",
     city: 'Aracaju',
     state: 'Sergipe',
     uf: 'SE',
@@ -353,7 +353,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'brasilia-lagarto',
-    name: 'Brasília',
+    name: "Lagarto — Brasília",
     city: 'Lagarto',
     state: 'Sergipe',
     uf: 'SE',
@@ -366,7 +366,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'colonia-13',
-    name: 'Colônia 13',
+    name: "Lagarto — Colônia Treze",
     city: 'Lagarto',
     state: 'Sergipe',
     uf: 'SE',
@@ -379,7 +379,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'itabaiana',
-    name: 'Itabaiana',
+    name: "Itabaiana — Rotary Club",
     city: 'Itabaiana',
     state: 'Sergipe',
     uf: 'SE',
@@ -392,7 +392,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'itaporanga-dajuda',
-    name: "Itaporanga d'Ajuda",
+    name: "Itaporanga d'Ajuda — Centro",
     city: "Itaporanga d'Ajuda",
     state: 'Sergipe',
     uf: 'SE',
@@ -405,7 +405,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'lagarto',
-    name: 'Lagarto',
+    name: "Lagarto — Centro",
     city: 'Lagarto',
     state: 'Sergipe',
     uf: 'SE',
@@ -418,7 +418,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'nossa-senhora-da-gloria',
-    name: 'Nossa Senhora da Glória',
+    name: "Nossa Senhora da Glória — Nova Brasília",
     city: 'Nossa Senhora da Glória',
     state: 'Sergipe',
     uf: 'SE',
@@ -430,7 +430,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'salgado',
-    name: 'Salgado',
+    name: "Salgado — Centro",
     city: 'Salgado',
     state: 'Sergipe',
     uf: 'SE',
@@ -442,7 +442,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'sanharo',
-    name: 'Sanharó',
+    name: "Sanharó — Centro",
     city: 'Sanharó',
     state: 'Pernambuco',
     uf: 'PE',
@@ -455,7 +455,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'sao-bento-do-una',
-    name: 'São Bento do Una',
+    name: "São Bento do Una — Centro",
     city: 'São Bento do Una',
     state: 'Pernambuco',
     uf: 'PE',
@@ -468,7 +468,7 @@ export const PLACES: Place[] = [
   },
   {
     id: 'aguas-belas',
-    name: 'Águas Belas',
+    name: "Águas Belas — Centro",
     city: 'Águas Belas',
     state: 'Pernambuco',
     uf: 'PE',
